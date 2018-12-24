@@ -68,7 +68,6 @@ class MainActivity :
             }
             R.id.nav_settings -> startActivity(Intent(Settings.ACTION_SETTINGS))
         }
-
         if (switchTo != null) {
             val ft = supportFragmentManager.beginTransaction()
             ft.replace(R.id.fragment_container, switchTo)
